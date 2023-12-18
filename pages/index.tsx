@@ -1,11 +1,16 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from '../components/Navbar'
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
+
+  <Layout>
+    <Navbar />
+    <h1>Olá!</h1>
+    <p>Seja bem-vindo ao nosso site.</p>
     <p>
-      <Link href="/about">About</Link>
+      <a href='/tarefas-feitas'>Tarefas Concluídas</a>
     </p>
   </Layout>
 )
