@@ -2,9 +2,10 @@ import Head from "next/head";
 import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <a className="navbar-brand" href="/">
           Navbar
         </a>
@@ -22,7 +23,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="/tarefas-feitas">
+              <a className="nav-link" href="list-task">
                 Tarefas Concluídas
               </a>
             </li>
