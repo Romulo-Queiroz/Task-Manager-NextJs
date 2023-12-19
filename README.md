@@ -2,7 +2,7 @@
 <br />
 
 # Sobre o projeto:
-* Projeto inicialmente construído com Angular... <a href="https://github.com/Romulo-Queiroz/Task-Manager-Frontend" target="_blank"> leia mais </a>
+* Projeto inicialmente construído com Angular... <a href="https://github.com/Romulo-Queiroz/Task-Manager-Angular.git" target="_blank"> leia mais </a>
 * Seguindo mesma interface, mesmos estilos do bootstrap porém agora com  ``` next.js ```
 
 # Iniciando o projeto
