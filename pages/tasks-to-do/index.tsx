@@ -3,7 +3,7 @@ import Layout from "../../components/Layout"
 import List from "../../components/List"
 import Navbar from "../../components/Navbar"
 
-const ListTasks = () => {
+const ListTasksToDo = () => {
     
     return (      
     <Layout title="Tarefas Concluidas">
@@ -31,4 +31,4 @@ const ListTasks = () => {
     )
 }
 
-export default ListTasks
+export default ListTasksToDo

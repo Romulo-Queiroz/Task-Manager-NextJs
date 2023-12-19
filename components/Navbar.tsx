@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="/tasks">
+              <a className="nav-link" href="/tasks-done">
                 Tarefas Concluídas
               </a>
             </li>
