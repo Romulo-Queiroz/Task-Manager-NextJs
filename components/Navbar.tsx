@@ -27,6 +27,11 @@ const Navbar = () => {
                 Tarefas Concluídas
               </a>
             </li>
+            <li className="nav-item active">
+              <a className="nav-link" href="/tasks-to-do">
+                Tarefas a Fazer
+              </a>
+            </li>
             <li className="nav-item">
               <a className="nav-link" href="/users">
                 Users
