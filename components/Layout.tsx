@@ -2,7 +2,7 @@ import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css"; // Importe os estilos do Bootstrap
 import Navbar from '../components/Navbar'
 
-const Layout = ({ children, title = "teste" }) => (
+const Layout = ({ children, title = "Task Manager" }) => (
   <div className="vh-100">
     <Head>
       <title>{title}</title>
